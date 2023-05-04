@@ -17,4 +17,4 @@ jobs:
     - name: Show all files and folder
       run : ls HelloWorld
     - name: Build the Docker image
-      run: docker build . --file ../Dockerfile --tag mesbaulhasan/helloworld:latest
+      run: docker build . --file HelloWorld/Dockerfile --tag mesbaulhasan/helloworld:latest
