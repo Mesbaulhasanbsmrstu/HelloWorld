@@ -15,6 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Show all files and folder
-      run : ls -a
+      run : ls HelloWorld
     - name: Build the Docker image
       run: docker build . --file ../Dockerfile --tag mesbaulhasan/helloworld:latest
