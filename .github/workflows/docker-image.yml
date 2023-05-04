@@ -24,4 +24,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file HelloWorld/Dockerfile --tag mesbaulhasan/helloworldtest:latest
     - name: Push to Hub
-      run: docker push mesbaulhasan/helloworld:latest
+      run: docker push mesbaulhasan/helloworldtest:latest
